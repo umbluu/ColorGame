@@ -7,6 +7,17 @@ h1 {
   color: #dfe6e9;
 }
 
+#stripe {
+  background-color: #dfe6e9;
+  height: 30px;
+  text-align: center;
+  color: #3d3d3d;
+}
+
+.selected {
+  background: blue;
+}
+
 .container {
   margin: 0 auto;
   max-width: 600px;
@@ -20,6 +31,3 @@ h1 {
   margin: 1.66%;
 }
 
-span {
-  color: #dfe6e9;
-}
