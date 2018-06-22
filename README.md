@@ -4,4 +4,6 @@ Game logic is based on JavaScript. Player has to guess colors by RGB color value
 
 ## The Web Developer Bootcamp 
 
+Game available on - http://umbluu.com/ColorGame/
+
 
