@@ -56,11 +56,14 @@ resetButton.addEventListener("click", function() {
   pickedColor = pickColor();
   // change colorDisplay to match picked color
   colorDisplay.textContent = pickedColor;
+  this.textContent = "New Colors?";
+  // reset try again/correct message to none
+  messageDisplay.textContent = "";
   // change colors of squares
   for (var i = 0; i < squares.length; i++) {
     squares[i].style.background = colors[i];
   }
-  h1.style.background = "#3d3d3d";
+  h1.style.background = "#5352ed";
 })
 
 colorDisplay.textContent = pickedColor;
@@ -80,7 +83,7 @@ for (var i = 0; i < squares.length; i++) {
       h1.style.background = clickedColor;
     } else {
       this.style.background = "#3d3d3d";
-      messageDisplay.textContent = "Try Again";
+      messageDisplay.textContent = "Try Again!";
     }
   });
 }
